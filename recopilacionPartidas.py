@@ -5,9 +5,9 @@ import pandas as pd
 
 # Ejemplo de uso
 api_key = "RGAPI-0352b742-da9e-48d4-8c59-3691aa07057f"
-game_name = "SoyRevi"
-tag_line = "Revi"
-num_games = 50
+game_name = "Aerlik"
+tag_line = "LAN"
+num_games = 100
 directory = f'matches/{game_name}'
 archivo_csv = f'matches/{game_name}/analisis_partidas.csv'
 

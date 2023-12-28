@@ -7,7 +7,7 @@ import pandas as pd
 api_key = "RGAPI-0352b742-da9e-48d4-8c59-3691aa07057f"
 game_name = "SoyRevi"
 tag_line = "Revi"
-num_games = 30
+num_games = 50
 directory = f'matches/{game_name}'
 archivo_csv = f'matches/{game_name}/analisis_partidas.csv'
 

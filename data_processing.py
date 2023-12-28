@@ -77,7 +77,9 @@ def analizar_jugador_especifico(file_path, puuid_jugador):
                 'Campeon': player['championName'],
                 'FechaCreacionPartida': game_creation,
                 'ID': game_id,
+                'EarlySurrender' : player['gameEndedInEarlySurrender'],
                 'Ganada': player['win'],
+                'Posicion' : player['individualPosition'],
                 'TiempoJugado': player['timePlayed'] / 60,  # En minutos
                 'OroNeto': player['goldEarned'] - player['goldSpent'] + 500,  # 500 oro inicial
                 'KDA': f"{player['kills']}/{player['deaths']}/{player['assists']}",

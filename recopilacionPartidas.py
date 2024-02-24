@@ -4,9 +4,9 @@ import os
 import pandas as pd 
 
 # Ejemplo de uso
-api_key = "RGAPI-0352b742-da9e-48d4-8c59-3691aa07057f"
-game_name = "Aerlik"
-tag_line = "LAN"
+api_key = "DEVS API"
+game_name = ""
+tag_line = ""
 num_games = 100
 directory = f'matches/{game_name}'
 archivo_csv = f'matches/{game_name}/analisis_partidas.csv'
